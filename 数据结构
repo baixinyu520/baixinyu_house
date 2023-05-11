@@ -1,0 +1,7 @@
+void ListLnsert_DuL(DuLinkList &L,Lnt i,ElemType){//在带头结点的双向循环链表L中华第i个位置之前插入元素e
+if(!(p=GetElemP_DuL(L,i)))return ERROP;
+S=new DuLNode; s->date=e;
+s->prior=p->prior; p_>prior->next=s;
+s_>next=p; p->prior=s;
+return OK;
+}//ListLnsert_DuL
