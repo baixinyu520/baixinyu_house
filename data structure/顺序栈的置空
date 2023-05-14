@@ -1,0 +1,6 @@
+Status StackEmpty(SqStack S){ //若栈为空反回TURE，否则返回FALSE
+if (S.top==S.base)
+return TURE;
+else
+return FALSE;
+}
