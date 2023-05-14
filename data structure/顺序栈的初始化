@@ -1,0 +1,6 @@
+Status InitStack(SqStack &S){//构造一个空栈
+S.base=new SElemTyoe[MAXSIZE];
+//或S.base=(SElemTYpe*)malloc(MAXSIZE*sizeof(SElemTYpe));
+if(!S,base)exit(OVERFLOW);//存储分配失败
+S.top=S.base;//栈顶指针等于栈底指针
+S.stacksize=MAXSIZE;
