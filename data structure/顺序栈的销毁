@@ -1,0 +1,8 @@
+Status DestroyStack(SqStack &S){
+if(s.base){
+delete S.base;
+S.stacksize=0;
+S.base=S.top=NULL;
+}
+return OK;
+}
